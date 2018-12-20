@@ -7,4 +7,7 @@ import dagger.Binds;
 public abstract class IoModule {
   @Binds
   abstract Reader bindReader(ReaderImpl impl);
+
+  @Binds
+  abstract Console bindConsole(ConsoleImpl impl);
 }
