@@ -2,6 +2,7 @@ package com.jonkimbel.recipeconverter;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println( "Hello World!" );
+      AppComponent appComponent = DaggerAppComponent.create();
+      appComponent.cli().main(args);
     }
 }
