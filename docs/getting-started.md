@@ -15,13 +15,7 @@ From the top level of the project, run:
 mvn package
 ```
 
-## Running the app
-
-After building, run this from the top level of the project:
-
-```
-java -cp target/recipe-converter-1.0-SNAPSHOT.jar com.jonkimbel.recipeconverter.App
-```
+To run the app, see [Example Commands](example-commands.md)
 
 ## Running tests
 

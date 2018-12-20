@@ -1,2 +1,5 @@
 # Ignore Maven build artifacts.
 target/*
+
+# Ignore recipe files used for testing.
+*.txt
