@@ -3,8 +3,9 @@ package com.jonkimbel.recipeconverter.ui;
 import static org.mockito.Mockito.*;
 import static com.google.common.truth.Truth.assertThat;
 
-import com.jonkimbel.recipeconverter.io.Console;
-import com.jonkimbel.recipeconverter.io.Reader;
+import com.jonkimbel.recipeconverter.io.api.Console;
+import com.jonkimbel.recipeconverter.io.api.Reader;
+import com.jonkimbel.recipeconverter.ui.api.CommandLineInterface;
 import java.io.IOException;
 import java.util.stream.Stream;
 import org.junit.Before;

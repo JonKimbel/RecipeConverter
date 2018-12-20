@@ -1,4 +1,4 @@
-package com.jonkimbel.recipeconverter.ui;
+package com.jonkimbel.recipeconverter.ui.api;
 
 public interface CommandLineInterface {
   /**

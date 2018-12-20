@@ -1,5 +1,6 @@
 package com.jonkimbel.recipeconverter.io;
 
+import com.jonkimbel.recipeconverter.io.api.Console;
 import javax.inject.Inject;
 
 public class ConsoleImpl implements Console {

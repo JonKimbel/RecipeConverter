@@ -1,7 +1,8 @@
 package com.jonkimbel.recipeconverter.ui;
 
-import com.jonkimbel.recipeconverter.io.Console;
-import com.jonkimbel.recipeconverter.io.Reader;
+import com.jonkimbel.recipeconverter.io.api.Console;
+import com.jonkimbel.recipeconverter.io.api.Reader;
+import com.jonkimbel.recipeconverter.ui.api.CommandLineInterface;
 import java.io.IOException;
 import javax.inject.Inject;
 

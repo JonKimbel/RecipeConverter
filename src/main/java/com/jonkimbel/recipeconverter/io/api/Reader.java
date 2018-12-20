@@ -1,4 +1,4 @@
-package com.jonkimbel.recipeconverter.io;
+package com.jonkimbel.recipeconverter.io.api;
 
 import java.io.IOException;
 import java.util.stream.Stream;
