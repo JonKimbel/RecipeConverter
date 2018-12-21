@@ -1,6 +1,7 @@
 package com.jonkimbel.recipeconverter.ui;
 
 import static com.google.common.truth.Truth.assertThat;
+import static java.util.stream.Collectors.toCollection;
 
 import com.jonkimbel.recipeconverter.converter.api.Converter;
 import com.jonkimbel.recipeconverter.converter.PlainTextConverterImpl;
@@ -25,8 +26,9 @@ public class PlainTextConverterImplTest {
       List<RecipeModel> recipes = new ArrayList<>();
       recipes.add(new RecipeModel.Builder().build());
 
-      Stream<String> lines = converter.fromModel(recipes);
+      Stream<String> linesStream = converter.fromModel(recipes);
 
+      List<String> lines = linesStream.collect(toCollection(ArrayList::new));
       assertThat(lines).hasSize(1);
       assertThat(lines).contains("");
     }
